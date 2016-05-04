@@ -1,0 +1,49 @@
+* {
+	/*border: 1px solid black;*/
+	margin: 0;
+}
+
+body.ACTIVATE {
+	background-color: tomato;
+	transition: background-color  1s;
+}
+
+div {
+	width: 500px;
+    height: 100px;
+    display: block;
+	margin: 0 auto;
+    margin-top: 250px;
+}
+
+button {
+
+	height:50%;
+    width:50%;
+	text-align: center;
+	position: relative;
+	left: 25%;
+	top: 25%;
+
+	font-size: 18px;
+	font-weight: 900;
+
+	border: 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid grey;
+}
+
+button:active {
+	border: 1px solid grey;
+}
+
+/*div.ACTIVATE {
+    background-color: tomato;
+	transition: background-color  1s;
+	border-radius: 35px;
+	transition: border-radius  1s;
+}*/
